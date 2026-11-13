@@ -1277,7 +1277,6 @@ buttons: dict[int, Button] = {
 
 
 
-#initPieces()
 player: Player         = Player()
 arena:  Arena          = Arena()
 screen: pygame.Surface = pygame.display.set_mode(((ARENA_COLS + 8) * CELL_SIZE, (ARENA_ROWS + 10) * CELL_SIZE))
