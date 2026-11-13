@@ -115,5 +115,5 @@ LOG_LEVEL_MIN_WIDTH:        int = 3  # How many digits the level reached should 
 LOG_START_LEVEL_MIN_WIDTH:  int = 2  # How many digits the starting level should be padded to at least
 LOG_TETRIS_COUNT_MIN_WIDTH: int = 5  # How many digits the number of tetrises should be padded to at least
 
-VERSION_STR: str = "V1.0.0"
+VERSION_STR: str = "V1.0.1"
 MENU_TITLE:  str = f"CHOMPTRIS: PYTHON EDITION {VERSION_STR}"
