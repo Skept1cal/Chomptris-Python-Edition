@@ -535,7 +535,7 @@ class Piece:
     def copy(src: Piece, dest: Piece) -> None:
         dest.shape = [[0 if (col == 0) else src.type for col in row] for row in src.shape]
         dest.type  = src.type
-        dest.color = (x for x in src.color)
+        dest.color = tuple(x for x in src.color)
 
         dest.pos.x = src.pos.x
         dest.pos.y = src.pos.y
