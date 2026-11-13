@@ -1,33 +1,4 @@
 import pygame
-'''
-class temp:
-    def __init__(self):
-        self.PIECE_NULL   = 0
-        self.PIECE_I      = 1
-        self.PIECE_O      = 2
-        self.PIECE_T      = 3
-        self.PIECE_J      = 4
-        self.PIECE_L      = 5
-        self.PIECE_S      = 6
-        self.PIECE_Z      = 7
-
-        self.TURN_RIGHT   =  1
-        self.TURN_LEFT    = -1
-
-        self.ARENA_COLS  = 10 # Cols
-        self.ARENA_HEIGHT = 20 # Rows
-        self.CELL_SIZE    = 20
-
-        self.FPS          = 60
-        self.START_SPEED  = self.FPS // 2
-    
-    def __setattr__(self, name, val):
-        raise AttributeError()
-
-constants = temp()
-
-del temp
-'''
 
 PIECE_NULL: int = 0
 PIECE_I:    int = 1
